@@ -1,0 +1,97 @@
+.musics .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.musics {
+    transition: all .3s ease;
+}
+
+.musics .container .music {
+    width: 350px;
+    text-align: center;
+}
+
+.musics .container .music img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.musics .container .music audio {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+nav,
+footer {
+    background-color: #392467;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+}
+
+nav .container .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.logo_music {
+    font-size: 25px;
+}
+
+.logo_mode {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.light .musics {
+    background-color: #5D3587;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer .container .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .container .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .container .links .link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .container .links .link a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
